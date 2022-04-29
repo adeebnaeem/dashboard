@@ -1,0 +1,806 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box !important;
+        overflow-x: hidden;
+    }
+    /* sidebar css start from here */
+    
+    .sidebar {
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        padding-bottom: 50px;
+        position: fixed;
+        width: 270px;
+        z-index: 999;
+        overflow: hidden;
+        overflow-y: auto;
+        transition: .5s;
+        background: #fff;
+        box-shadow: 0 12px 30px rgb(80 143 244 / 10%);
+    }
+    
+    .sidebar::-webkit-scrollbar {
+        display: none !important;
+    }
+    
+    .sidebar a {
+        color: #144339;
+        text-decoration: none;
+    }
+    
+    .sidebar a span i {
+        margin-left: 30px !important;
+        color: #a1a4b9 !important;
+        font-size: 10px !important;
+    }
+    
+    .logo h3 {
+        font-family: "comfortaa", cursive !important;
+        margin: 10px;
+        color: #64c5b1 !important;
+    }
+    
+    .manubar li {
+        list-style: none !important;
+    }
+    
+    .manubar-a {
+        display: flex !important;
+        align-items: center !important;
+        font-size: 16px;
+        font-weight: 400;
+        color: #144339;
+        padding: 0 25px 0 0;
+        margin-left: 9px;
+        background: #fff;
+        transition: .3s;
+        position: relative;
+        z-index: 0;
+        display: grid;
+        grid-template-columns: 34px auto;
+        grid-gap: 15px;
+        align-items: center;
+        position: relative;
+        background: 0 0;
+        color: #8890b5;
+        margin-top: 25px;
+        font-family: comfortaa, cursive;
+    }
+    
+    .iconxdisplay,
+    .taskbtn {
+        display: none !important;
+    }
+    /* sidebar css end here */
+    /* Navbar css start from here  */
+    
+    .search_field input {
+        color: #86898e !important;
+        font-size: 12px;
+        height: 40px !important;
+        width: 100% !important;
+        padding-left: 50px !important;
+        border: 0;
+        padding-right: 15px !important;
+        background: 0 0;
+        border-radius: 30px !important;
+        border: 0;
+        border: 1px solid rgba(100, 197, 177, .6) !important;
+        font-weight: 400 !important;
+    }
+    
+    .search_field button {
+        position: absolute;
+        left: 0;
+        top: 0 !important;
+        height: 100% !important;
+        background: 0 0;
+        font-size: 12px !important;
+        border: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 13px !important;
+    }
+    
+    .serach_field-area {
+        width: 310px !important;
+        position: relative;
+    }
+    
+    .icons i {
+        font-size: 18px;
+    }
+    
+    .bellbtn {
+        background: #64c5b1;
+        font-size: 9px !important;
+    }
+    
+    .icons button {
+        margin: 0 5px;
+    }
+    /* Navbar css end here  */
+    /* maindashboard start from here */
+    
+    .pageh3 {
+        padding: 55px 20px;
+    }
+    
+    .pageh3 h3 {
+        color: white;
+        font-family: 'Nunito Sans', sans-serif !important;
+        font-weight: bolder !important;
+        font-size: 25px;
+    }
+    
+    .createbnt button {
+        border: none;
+        padding: 14px 30px;
+        border-radius: 5px;
+        background: white;
+        color: #101038;
+        box-shadow: 0 3px 11px rgb(0 0 0 / 17%) !important;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    .createbnt button:hover {
+        background-color: #007bff;
+        color: rgb(255, 255, 255);
+        transition: .3s;
+    }
+    /* maindashboard end here */
+    /* Revenue chart css start from here  */
+    
+    .graplcol {
+        background: white;
+        border-radius: 5px;
+    }
+    
+    .graplcol2 button {
+        border: none;
+        padding: 8px 15px !important;
+        font-size: 14px;
+        color: #303e67 !important;
+    }
+    
+    .graplcol2 span {
+        font-size: 14px;
+        color: #303e67 !important;
+    }
+    
+    #myChart {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .graplcol p {
+        font-family: "nunito", sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        color: #101038;
+    }
+    /* Revenue chart css end here  */
+    /* total sales chart css start from here  */
+    
+    .sales_unit_footer {
+        background: #323246;
+        border-radius: 0 0 5px 5px;
+        padding: 30px 0px;
+    }
+    
+    .singlesales p {
+        font-size: 11px;
+        color: #c2e6df;
+        font-weight: 400;
+    }
+    
+    .singlesales h3 {
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+    }
+    
+    .ptage {
+        font-size: 10px !important;
+    }
+    /* total sales chart css end here  */
+    /* medill section css start from here */
+    
+    .Downloadsect {
+        position: relative !important;
+        bottom: 230px !important;
+    }
+    
+    .reportd h6 {
+        font-size: 18px !important;
+    }
+    
+    .reportd p {
+        font-size: 10px;
+        color: gray;
+    }
+    
+    .dailysaleschart {
+        padding: 48px 10px;
+    }
+    
+    .barfiller {
+        width: 100% !important;
+        height: 8px !important;
+        background: #f8f9ff;
+        position: relative;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+    
+    .barfiller#bar1 .tip {
+        color: #508ff4;
+    }
+    
+    .barfiller .tip {
+        margin-top: -23px;
+        padding: 2px 4px;
+        font-size: 11px;
+        color: #000;
+        left: 0;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .barfiller .fill {
+        display: block;
+        position: relative;
+        width: 0;
+        height: 100%;
+        z-index: 1;
+        border-radius: 30px;
+    }
+    
+    .barfiller#bar2 .tip {
+        color: #ffbf43;
+    }
+    
+    .totalsalesh4 h4 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .createbnt2 button {
+        border: none;
+        padding: 14px 30px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: rgb(255, 255, 255);
+        box-shadow: 0 3px 11px rgb(0 0 0 / 17%) !important;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    /* medill section css end here */
+    /* calader css start from here */
+    
+    .bg-gradient-success {
+        background: #64c5b1!important;
+        color: #fff;
+    }
+    
+    .card_1 {
+        box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    }
+    
+    .card-header {
+        background-color: transparent;
+        border-bottom: 1px solid rgba(0, 0, 0, .125);
+        padding: 0.75rem 1.25rem;
+        position: relative;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+    
+    .card-title {
+        float: left;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .card-header>.card-tools {
+        float: right;
+        margin-right: -0.625rem;
+    }
+    
+    .card-body {
+        padding: 1px 10px !important;
+    }
+    
+    .bootstrap-datetimepicker-widget .list-unstyled {
+        margin: 0;
+    }
+    
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+    
+    .bootstrap-datetimepicker-widget table td.day {
+        height: 20px;
+        line-height: 20px;
+        width: 20px;
+    }
+    
+    .bootstrap-datetimepicker-widget table td,
+    .bootstrap-datetimepicker-widget table th {
+        text-align: center;
+        border-radius: 0.25rem;
+    }
+    
+    .card_1.bg-gradient-success .bootstrap-datetimepicker-widget .table th {
+        border: none !important;
+        font-size: 12px;
+    }
+    
+    .card_1.bg-gradient-success .bootstrap-datetimepicker-widget .table td {
+        border: none !important;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .bootstrap-datetimepicker-widget table th {
+        height: 20px;
+        line-height: 20px;
+        width: 20px;
+        color: white;
+    }
+    /* calader css end here */
+    /* products table start from here */
+    
+    .populardiv h4 {
+        font-size: 14px;
+    }
+    
+    .pordetails {
+        margin: 5px 20px;
+        background-color: #d8f4ed;
+        border-radius: 5px;
+    }
+    
+    .pordetails h5 {
+        font-size: 14px !important;
+        color: #64c5b1;
+    }
+    
+    .pordetails1,
+    .pordetails2 {
+        padding: 5px 20px;
+    }
+    
+    .pordetails1 h5 {
+        margin: 0 15px;
+        color: #64c5b1;
+    }
+    
+    .productsid {
+        margin: 0 25px;
+    }
+    
+    .productsid1 {
+        margin-right: 5px !important;
+    }
+    
+    .productsid1 span {
+        margin: 0 10px;
+    }
+    
+    .imgporduct span {
+        font-size: 20px;
+        font-weight: 400;
+        color: #64c5b1;
+    }
+    
+    .imgporductid span {
+        font-size: 15px;
+    }
+    
+    #spanblue {
+        color: #97c0ff!important;
+    }
+    
+    #price {
+        color: #64c5b1;
+    }
+    
+    #satuts {
+        font-size: 11px;
+        font-weight: 700;
+        background: #fff0eb;
+        display: inline-block;
+        border-radius: 2px;
+        padding: 5px 17px;
+        color: #ff7f57;
+    }
+    
+    .createbnt4 button {
+        border: none;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 14px 60px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: rgb(255, 255, 255);
+        box-shadow: 0 3px 11px rgb(0 0 0 / 17%) !important;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    /* products table endhere */
+    
+    #container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .white_card .white_card_body {
+        padding: 5px 30px 30px;
+    }
+    
+    .mt_30 {
+        margin-top: 30px;
+    }
+    
+    #chart {
+        height: 400px;
+        width: 400px;
+    }
+    /* months chart start from here */
+    
+    .chatmonths {
+        padding-bottom: 33%;
+    }
+    /* months chart end here */
+    /* cards section css start from here */
+    
+    .parpel_bg {
+        background: #833cdf!important;
+    }
+    
+    .pink_bg {
+        background: #fe80b2!important;
+    }
+    
+    .blue_bg {
+        background: #016dd8!important;
+    }
+    
+    .orange_bg {
+        background: #ff4409!important;
+    }
+    
+    .green_bg {
+        background: #20b1b9!important;
+    }
+    /* cards section css end here */
+    /* footer section css start from here */
+    
+    .mainfooter {
+        background-color: #64c5b1 !important;
+        width: 100% !important;
+    }
+    
+    .mainfooter div {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        padding: 15px 40px;
+        color: white;
+    }
+    /* footer section css end here */
+    /* media query start from here */
+    
+    @media only screen and (max-width: 409px) {
+        .maindash1 {
+            padding: 10px 7px !important;
+        }
+        .icons {
+            width: 53% !important;
+        }
+    }
+    
+    @media only screen and (max-width: 488px) {
+        .sidebar {
+            width: 71% !important;
+        }
+        .card1 {
+            width: 106% !important;
+        }
+        .svgdiv {
+            width: 99% !important;
+        }
+        .createbnt button {
+            padding: 9px 19px !important;
+        }
+        .iconxdisplay {
+            margin-left: 295px !important;
+        }
+        .sidebar {
+            padding: 0 23px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .icons {
+            width: 40%;
+        }
+        .icons button {
+            margin: 0 8px !important;
+        }
+        .productsid1 {
+            width: 67% !important;
+        }
+        .imgporductid span {
+            font-size: 10px !important;
+        }
+        .productsid1 span {
+            font-size: 12px !important;
+        }
+        .satuts {
+            font-size: 12px !important;
+        }
+        .productsid1 span {
+            font-size: 7px !important;
+        }
+        .imgporduct span {
+            font-size: 8px !important;
+        }
+        .imgporduct img {
+            width: 44px !important;
+            padding: 10px 0 !important;
+        }
+        .pordetails h5 {
+            font-size: 8px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .imgporduct span {
+            font-size: 10px !important;
+        }
+        .productsid1 {
+            margin-right: -18px !important;
+        }
+        .serach_field-area {
+            display: none !important;
+        }
+        .createbnt button {
+            font-size: 8px !important;
+        }
+        .graplcol2 button,
+        span {
+            font-size: 10px !important;
+        }
+        .createbnt2 button {
+            font-size: 8px !important;
+        }
+        .reportd h6 {
+            font-size: 14px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .createbnt2 button {
+            padding: 10px 8px !important;
+        }
+        .dailysaleschart {
+            padding: 40px 10px !important;
+        }
+        .nabarnew {
+            transform: translate(40px, 0px) !important;
+        }
+        .sidebar {
+            height: 160vh !important;
+            transform: translate(-555px, 0px) !important;
+        }
+        .containerbdash {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+        .mainheader {
+            padding: 0 !important;
+        }
+        .nabarnew {
+            transform: translate(0px, 0px) !important;
+        }
+        .pordetails h5 {
+            font-size: 8px !important;
+        }
+        .createbnt4 button {
+            padding: 8px 45px !important;
+            font-size: 8px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .search_field {
+            display: none !important;
+        }
+        .totalorders {
+            margin: 2px !important;
+            width: 100% !important;
+        }
+        .Downloadsect {
+            margin-top: 130px !important;
+        }
+    }
+    
+    @media only screen and (max-width:1199px) {
+        #taskbtn {
+            transform: translate(9px, 0px) !important;
+            display: block !important;
+        }
+        .sidebar {
+            height: 160vh !important;
+        }
+        .dailysaleschart {
+            padding: 40px 10px !important;
+        }
+        .totalsalesh4 {
+            padding-bottom: 25% !important;
+        }
+        .Downloadsect {
+            bottom: 230px !important;
+        }
+        .iconxdisplay {
+            display: block !important;
+        }
+        .search_field {
+            transform: translate(-72px, 4px) !important;
+        }
+    }
+    /* media query  end here */
+    /* chat section start from here */
+    
+    .chatmainheader h3 {
+        font-size: 33px;
+        font-weight: 600;
+        color: #2e4765;
+        margin-bottom: 7px;
+    }
+    
+    .chatmainheader p {
+        color: #6f658d;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    
+    .chat_card {
+        padding: 10px 30px;
+    }
+    
+    .mainchatsec {
+        border-bottom: 1px solid rgb(131, 131, 131);
+        padding-bottom: 25px;
+    }
+    
+    .commets1 p {
+        font-size: 14px;
+    }
+    
+    .secondcommentbox p {
+        font-size: 14px !important;
+    }
+    
+    .commets1 span {
+        font-size: 12px;
+        color: grey;
+    }
+    
+    .secondcommentbox span {
+        font-size: 12px !important;
+        color: grey;
+    }
+    
+    .commets1 img {
+        width: 20%;
+    }
+    
+    .secondcommentbox img {
+        width: 12% !important;
+    }
+    
+    .secondcommentbox1 img {
+        width: 12% !important;
+    }
+    
+    #commentsspan {
+        font-size: 12px;
+        color: gainsboro;
+    }
+    
+    .commentbox {
+        background: #4c6ef8 !important;
+        border-radius: 10px;
+    }
+    
+    .commentbox1 {
+        background: #e9e9e9 !important;
+        border-radius: 10px;
+    }
+    
+    .commentbox p {
+        font-size: 13px;
+        font-weight: 300;
+        color: #f7f7f7;
+        line-height: 26px;
+    }
+    
+    .commentbox1 p {
+        font-size: 13px;
+        font-weight: 300;
+        color: #474747;
+        line-height: 26px;
+    }
+    
+    .btn_1 {
+        background-color: #567aed;
+        border: 1px solid #567aed;
+        color: #fff;
+        display: inline-block;
+        padding: 11px 40px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 5px;
+        white-space: nowrap;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    
+    .inputchat {
+        width: 80% !important;
+        font-size: 12px !important;
+    }
+    /* chat section end here */
+    /* these classes are used in javascript */
+    
+    .chat_section,
+    .cards_section {
+        display: none !important;
+    }
+    
+    .d_none {
+        display: none !important;
+    }
+    
+    .d_block {
+        display: block !important;
+    }
+    
+    .sidebar1 {
+        transform: translate(-810px, 0px) !important;
+        transition: 0.5s ease-in-out !important;
+    }
+    
+    .sidebar2 {
+        transform: translate(-10px, 0px) !important;
+        transition: 0.5s ease-in-out !important;
+    }
+    
+    .containerbdash1 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        transition: 0.5s ease-in-out !important;
+    }
+    
+    .mainheader1 {
+        padding: 0 !important;
+    }
+    
+    .containerfluidleft {
+        width: 74% !important;
+        margin-left: 255px !important;
+        transition: 0.5s ease-in-out !important;
+    }
